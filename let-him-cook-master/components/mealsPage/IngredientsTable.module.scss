@@ -1,0 +1,21 @@
+.ingredientsTable {
+	max-width: 500px;
+	width: 100%;
+	border-spacing: 0px;
+	tr {
+		width: 100%;
+		background-color: #ec840e;
+		&:nth-child(even) {
+			background-color: #e49a12;
+		}
+		&:hover {
+			background-color: rgb(25, 26, 28);
+		}
+		td {
+			padding: 0.5rem;
+		}
+	}
+}
+.title {
+	margin-bottom: 1rem;
+}
